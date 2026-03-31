@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI assistance and modern templates.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "resume"
+  },
+  {
+    "id": 2,
+    "name": "AI Copywriting Tool",
+    "description": "Generate high-converting copy for ads, emails, and landing pages.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Ad copy generator",
+      "Email templates",
+      "SEO content",
+      "Multiple tones"
+    ],
+    "icon": "copy"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Scheduler",
+    "description": "Plan and automate your social media posts across platforms.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Multi-platform posting",
+      "Auto scheduling",
+      "Analytics dashboard",
+      "Content calendar"
+    ],
+    "icon": "social"
+  },
+  {
+    "id": 4,
+    "name": "Logo Maker AI",
+    "description": "Design stunning logos instantly using AI-powered tools.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI logo generation",
+      "High-res download",
+      "Editable design",
+      "Brand kit included"
+    ],
+    "icon": "logo"
+  },
+  {
+    "id": 5,
+    "name": "Website UI Kit",
+    "description": "Pre-built UI components and templates for fast website development.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "200+ components",
+      "Figma + HTML files",
+      "Responsive design",
+      "Easy customization"
+    ],
+    "icon": "ui"
+  },
+  {
+    "id": 6,
+    "name": "SEO Optimization Tool",
+    "description": "Boost your website ranking with AI-driven SEO insights.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Keyword research",
+      "On-page SEO audit",
+      "Competitor analysis",
+      "Content suggestions"
+    ],
+    "icon": "seo"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Suite",
+    "description": "Create, send, and analyze email campaigns with ease.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "Automation flows",
+      "Analytics reports",
+      "Template library"
+    ],
+    "icon": "email"
+  },
+  {
+    "id": 8,
+    "name": "Productivity Tracker",
+    "description": "Track tasks, manage time, and boost your productivity.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "Task management",
+      "Time tracking",
+      "Daily reports",
+      "Goal setting"
+    ],
+    "icon": "productivity"
+  }
+]
