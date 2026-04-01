@@ -3,9 +3,9 @@ import { CiShoppingCart } from 'react-icons/ci';
 
 const Navbar = () => {
     return (
-        <div className='shadow-md w-full'>
-            <div className='flex items-center justify-between py-4  max-w-[1200px] mx-auto'>
-                <h2 className='text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h2>
+        <div className='shadow-sm bg-white w-full sticky top-0 z-50'>
+            <div className='flex items-center justify-between py-3  max-w-[1200px] mx-auto'>
+                <h2 className='text-5xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent leading-normal'>DigiTools</h2>
                 <div className=''>
                     <ul className='flex space-x-8'>
                         <li><a href="">Products</a></li>

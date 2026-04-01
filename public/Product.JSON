@@ -13,7 +13,7 @@
       "Export to PDF",
       "AI content suggestions"
     ],
-    "icon": "resume"
+    "icon": "/assets/products/writing.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "SEO content",
       "Multiple tones"
     ],
-    "icon": "copy"
+    "icon": "/assets/products/design-tool.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Analytics dashboard",
       "Content calendar"
     ],
-    "icon": "social"
+    "icon": "/assets/products/social-media.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Editable design",
       "Brand kit included"
     ],
-    "icon": "logo"
+    "icon": "/assets/products/operation.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Responsive design",
       "Easy customization"
     ],
-    "icon": "ui"
+    "icon": "/assets/products/portfolio.png"
   },
   {
     "id": 6,
@@ -93,38 +93,7 @@
       "Competitor analysis",
       "Content suggestions"
     ],
-    "icon": "seo"
-  },
-  {
-    "id": 7,
-    "name": "Email Marketing Suite",
-    "description": "Create, send, and analyze email campaigns with ease.",
-    "price": 35,
-    "period": "monthly",
-    "tag": "New",
-    "tagType": "new",
-    "features": [
-      "Drag & drop builder",
-      "Automation flows",
-      "Analytics reports",
-      "Template library"
-    ],
-    "icon": "email"
-  },
-  {
-    "id": 8,
-    "name": "Productivity Tracker",
-    "description": "Track tasks, manage time, and boost your productivity.",
-    "price": 12,
-    "period": "monthly",
-    "tag": "Best Seller",
-    "tagType": "best",
-    "features": [
-      "Task management",
-      "Time tracking",
-      "Daily reports",
-      "Goal setting"
-    ],
-    "icon": "productivity"
+    "icon": "/assets/products/shopping-cart.png"
   }
+  
 ]

@@ -9,6 +9,13 @@ import Pricing from './Components/Pricing/Pricing'
 import Steps from './Components/Steps/Steps'
 import Toolsbar from './Components/Tools/Toolsbar'
 
+const getProducts = async () => {
+  const res = await fetch("/product.json")
+  return res.json()
+}
+
+const productPromise = getProducts();
+
 function App() {
   
 
@@ -17,7 +24,7 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Counter></Counter>
-      <Toolsbar></Toolsbar>
+      <Toolsbar productPromise={productPromise}></Toolsbar>
 
       <Steps></Steps>
       <Pricing></Pricing>

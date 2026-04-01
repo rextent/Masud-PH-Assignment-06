@@ -7,17 +7,17 @@ const Pricing = () => {
         <div>
             <div className='flex flex-col items-center justify-between py-4  max-w-[1200px] mx-auto space-y-5 pt-10'>
                 <h2 className='text-6xl font-bold'>Simple, Transparent Pricing</h2>
-                <p className='text-center text-lg'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+                <p className='text-center text-lg text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 
                 <div className='grid grid-cols-3 justify-between gap-10 max-w-[1120px mx-auto'>
 
                     <div className='bg-gray-100 shadow-sm p-10 flex flex-col  rounded-2xl space-y-5 h-full'>
                         <div className='my-3'>
                             <p className='text-2xl font-bold'>Starter</p>
-                            <p>Perfect for getting started</p>
+                            <p className='text-[#627382]'>Perfect for getting started</p>
                         </div>
                         <p><span className='text-xl font-bold'>$0</span> / Month</p>
-                        <ul className='flex flex-col gap-2'>
+                        <ul className='flex flex-col gap-2 text-[#627382]'>
                             <li className='flex items-center gap-3'><FcCheckmark></FcCheckmark> Access to 10 free tools</li>
                             <li className='flex items-center gap-3'><FcCheckmark></FcCheckmark> Basic templates</li>
                             <li className='flex items-center gap-3'> <FcCheckmark></FcCheckmark>Community support</li>
@@ -29,7 +29,7 @@ const Pricing = () => {
                     <div className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-sm p-10  flex flex-col  rounded-2xl space-y-5 h-full text-white '>
                         <div className='my-3'>
                             <p className='text-2xl font-bold'>Pro</p>
-                            <p>Best for professionals</p>
+                            <p className=''>Best for professionals</p>
                         </div>
                         <p><span className='text-xl font-bold'>$29</span> / Month</p>
                         <ul className='flex flex-col gap-2'>
@@ -47,10 +47,10 @@ const Pricing = () => {
                     <div className='bg-gray-100 shadow-sm p-10  flex flex-col rounded-2xl space-y-5 h-full'>
                         <div className='my-3'>
                             <p className='text-2xl font-bold'>Enterprise</p>
-                            <p>For teams and business</p>
+                            <p className='text-[#627382]'>For teams and business</p>
                         </div>
                         <p><span className='text-xl font-bold'>$99</span> / Month</p>
-                        <ul className='flex flex-col gap-2'>
+                        <ul className='flex flex-col gap-2 text-[#627382]'>
                             <li className='flex items-center gap-3'><FcCheckmark></FcCheckmark> Everything in Pro</li>
                             <li className='flex items-center gap-3'><FcCheckmark></FcCheckmark> Team collaboration</li>
                             <li className='flex items-center gap-3'> <FcCheckmark></FcCheckmark>Custom integrations</li>

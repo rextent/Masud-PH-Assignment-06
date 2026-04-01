@@ -17,17 +17,19 @@ const Hero = () => {
                         <div className="w-2.5 h-2.5 bg-purple-600 rounded-full"></div>
                     </div>
 
-                    <p className="text-purple-600 font-medium text-sm">
+                    <p className="text-purple-600 font-medium text-md">
                         New: AI-Powered Tools Available
                     </p>
 
                 </div>
-                <h2 className='text-7xl font-bold'>Supercharge Your <br />Digital Workflow</h2>
-                <p className='text-lg'>Access premium AI tools, design assets, templates, and productivity <br />software—all in one place. Start creating faster today. <br /> Explore Products
+                <h2 className='text-7xl font-bold leading-tight'>Supercharge Your <br />Digital Workflow</h2>
+                <p className='text-lg text-[#627382]'>Access premium AI tools, design assets, templates, and productivity <br />software—all in one place. Start creating faster today. <br /> Explore Products
                 </p>
                 <div className='flex gap-5 items-center'>
-                    <button className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-4xl font-semibold text-white'><a href="">Explore Products</a></button>
-                    <button className='btn btn-outline btn-secondary'><CiPlay1/> Watch Demo</button>
+                    <button className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-6 py-3 rounded-4xl font-semibold text-white'><a href="">Explore Products</a></button>
+                    <div className='p-[1px] rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA]'>
+                        <button className='flex items-center gap-2 px-6 py-3 rounded-full bg-white font-bold cursor-pointer'><CiPlay1/> <span className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent flex items-center gap-2'>Watch Demo</span></button>
+                    </div>
                 </div>
             </div>
 
