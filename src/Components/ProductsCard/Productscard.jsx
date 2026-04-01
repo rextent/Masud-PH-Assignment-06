@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FcCheckmark } from "react-icons/fc";
 
 
-const Productscard = ({ product }) => {
-    console.log(product)
+const Productscard = ({ product, setCartAmount, cartAmount }) => {
+
+    const [isPurchased, setIsPurchased] = useState(false)
+
+    const handlePurchase =()=>{
+        alert(`${product.name} added to cart`)
+        setIsPurchased(true);
+        setCartAmount(cartAmount + 1 );
+    }
 
     const tagStyles = {
         best: "bg-yellow-100 text-yellow-600",
@@ -24,15 +31,13 @@ const Productscard = ({ product }) => {
                 <p className='text-lg text-[#627382]'>{product.description}</p>
                 <p>{product.price}/Mo</p>
                 <ul className='space-y-1'>
-                    {
-                        product.features.map((feature) => (
-                            <li className='flex items-center gap-2 text-lg text-[#627382]'><FcCheckmark></FcCheckmark>{feature}</li>
-                        )
-                        )}
+                    {product.features.map((feature, index) => (
+                            <li key={index} className='flex items-center gap-2 text-lg text-[#627382]'><FcCheckmark></FcCheckmark>{feature}</li>
+                        ))}
 
                 </ul>
                 <div className='flex justify-center'>
-                    <button className='cursor-pointer bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-6 py-2 rounded-full font-semibold text-white shadow-md w-full'>Buy Now</button>
+                    <button onClick={handlePurchase} className='cursor-pointer bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-6 py-2 rounded-full font-semibold text-white shadow-md w-full'>{isPurchased ? 'Added to Cart' : 'Buy Now'}</button>
                 </div>
             </div>
         </div>
