@@ -10,7 +10,7 @@ const Navbar = ({ cartAmount }) => {
       <div className="flex items-center justify-between py-3 max-w-[1200px] mx-auto px-4">
 
         {/* Logo */}
-        <h2 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+        <h2 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent leading-[1.2]">
           DigiTools
         </h2>
 
