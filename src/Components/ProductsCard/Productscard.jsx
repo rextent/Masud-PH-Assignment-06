@@ -1,15 +1,20 @@
 import React, { useState } from 'react';
 import { FcCheckmark } from "react-icons/fc";
+import { toast } from 'react-toastify';
 
 
-const Productscard = ({ product, setCartAmount, cartAmount }) => {
+const Productscard = ({ product, setCartAmount, cartAmount, setSelectedProduct, selectedProduct }) => {
 
     const [isPurchased, setIsPurchased] = useState(false)
 
+    
+
     const handlePurchase =()=>{
-        alert(`${product.name} added to cart`)
+        
+        toast(`${product.name} added to cart`);
         setIsPurchased(true);
         setCartAmount(cartAmount + 1 );
+        setSelectedProduct(selectedProduct=>[...selectedProduct, product])
     }
 
     const tagStyles = {
