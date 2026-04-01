@@ -5,11 +5,11 @@ import { FcCheckmark } from "react-icons/fc";
 const Pricing = () => {
     return (
         <div>
-            <div className='flex flex-col items-center justify-between py-4  max-w-[1200px] mx-auto space-y-5 pt-10'>
-                <h2 className='text-6xl font-bold'>Simple, Transparent Pricing</h2>
+            <div className='flex flex-col items-center py-4 max-w-[1200px] mx-auto space-y-5 pt-10 px-4 my-10'>
+                <h2 className='text-2xl md:text-4xl lg:text-6xl font-bold'>Simple, Transparent Pricing</h2>
                 <p className='text-center text-lg text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 
-                <div className='grid grid-cols-3 justify-between gap-10 max-w-[1120px mx-auto'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8'>
 
                     <div className='bg-gray-100 shadow-sm p-10 flex flex-col  rounded-2xl space-y-5 h-full'>
                         <div className='my-3'>
@@ -23,10 +23,10 @@ const Pricing = () => {
                             <li className='flex items-center gap-3'> <FcCheckmark></FcCheckmark>Community support</li>
                             <li className='flex items-center gap-3'> <FcCheckmark></FcCheckmark>1 project per month</li>
                         </ul>
-                        <button className='mt-auto bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-4xl font-semibold text-white'>Get Started Free</button>
+                        <button className='cursor-pointer mt-auto bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-4xl font-semibold text-white'>Get Started Free</button>
                     </div>
 
-                    <div className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-sm p-10  flex flex-col  rounded-2xl space-y-5 h-full text-white '>
+                    <div className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-lg p-6 rounded-2xl flex flex-col gap-5 h-full scale-105 '>
                         <div className='my-3'>
                             <p className='text-2xl font-bold'>Pro</p>
                             <p className=''>Best for professionals</p>
@@ -41,7 +41,7 @@ const Pricing = () => {
                             <li className='flex items-center gap-3'> <FcCheckmark></FcCheckmark>Advanced analytics</li>
                             
                         </ul>
-                        <button className='mt-auto bg-white p-3 rounded-4xl font-semibold text-[#4F39F6]'>Get Started Free</button>
+                        <button className='cursor-pointer mt-auto bg-white p-3 rounded-4xl font-semibold text-[#4F39F6]'>Start Pro Trial</button>
                     </div>
 
                     <div className='bg-gray-100 shadow-sm p-10  flex flex-col rounded-2xl space-y-5 h-full'>
@@ -58,7 +58,7 @@ const Pricing = () => {
                             <li className='flex items-center gap-3'> <FcCheckmark></FcCheckmark>SLA guarantee</li>
                             <li className='flex items-center gap-3'> <FcCheckmark></FcCheckmark>Custom branding</li>
                         </ul>
-                        <button className='mt-auto bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-4xl font-semibold text-white'>Get Started Free</button>
+                        <button className='cursor-pointer mt-auto bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-4xl font-semibold text-white'>Contact Sales</button>
                     </div>
 
                 </div>
