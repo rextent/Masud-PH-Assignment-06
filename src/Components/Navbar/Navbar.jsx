@@ -16,9 +16,9 @@ const Navbar = ({cartAmount}) => {
                     </ul>
                 </div>
                 <div className='flex space-x-6 items-center'>
-                    <div>
+                    <div className='relative'>
                         <CiShoppingCart className='text-2xl'></CiShoppingCart>
-                        <p>{cartAmount}</p>
+                        <p className='absolute -top-2 -right-2 bg-purple-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full'>{cartAmount}</p>
                     </div>
                     <a href="">Login</a>
                     <button className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-4xl font-semibold text-white'><a href="">Get Started</a></button>
